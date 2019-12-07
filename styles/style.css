@@ -16,9 +16,11 @@ p, {
 body {
   max-width: 1000px; 
   margin: 3 auto;
-  background-color: rgb(8, 5, 0); 
+  background-color: rgb(255, 255, 255); 
   padding: 0 20px 20px 20px;
   border: 2.0rem groove rgb(177, 101, 9);
+  font-family: 'Mansalva', serif;
+  font-size: 32px;
 }
 li {
   display: inline-block;
