@@ -1,0 +1,126 @@
+html { font-size: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgba(28, 25, 212, 0.884);
+    background-color: rgb(98, 170, 102);
+    header, main { padding: 2.5rem; }
+    a:link { color: #ff0000; }
+    a:visited { color: #fffb00; }
+    a:hover { color: #ff00bf; background-color: #39da11; text-decoration: none; }
+    a:active { color: #f52db2; background-color: #00ff37; text-decoration: none; }
+p, {
+  font-size: 2.5rem;    
+  line-height: 2;
+  letter-spacing: 2px;
+  color: rgba(25, 212, 65, 0.884) ;
+}
+body {
+  max-width: 1000px; 
+  margin: 3 auto;
+  background-color: rgb(8, 5, 0); 
+  padding: 0 20px 20px 20px;
+  border: 2.0rem groove rgb(177, 101, 9);
+}
+li {
+  display: inline-block;
+  font-size: 2.5rem;    
+  line-height: 2;
+  letter-spacing: 2px;
+  color: rgba(25, 212, 65, 0.884) ;
+  float: left;
+}
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+li a {
+    display: block;
+    padding: 18px;
+    background-color: #dddddd;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+h1 {
+  font-size: 7.5rem;
+  text-align: center;
+  margin: 5;
+  padding: 10px 0;    
+  color: #00539F;
+  text-shadow: 4px 4px 2px rgb(245, 243, 243);
+}
+h2 {
+  font-size: 4.5rem;    
+  line-height: 2;
+  letter-spacing: 2px;
+}
+h3 {
+  font-size: 3.0rem;    
+  line-height: 2;
+  letter-spacing: 2px;
+}
+h4 {
+  font-size: 2.5rem;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+nav {
+  display: block;
+  padding: 0 20px 20px 20px;
+  border-style: solid;
+  border-width: 5px;
+    }
+section#phoenix-chillin-in-the-garage figure {
+  float: left;
+  width: 60%;
+  padding-right: 2em;
+}
+section#phoenix-chillin-in-the-garage figure img {
+  width: 100%;
+}
+section#after-image {
+clear: left;
+}
+.intro {
+position: relative
+/* relative positioning means move it this far from where it would normally be */
+top: 20px;
+left: 20px;
+font-size: 1.5em;
+color: #333333;
+}
+footer {
+  display: block;
+}
+div {
+  border-right: double;
+  border-right-width: thick;
+}
+    
+@media screen and (max-width: 600px) { .bit-columns { column-count: 2; } } 
+@media screen and (max-width: 320px) { .bit-columns { column-count: unset; } }
+  
+.container {
+  column-width: 400px;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 4px dotted rgb(79, 185, 227);
+}
+.content-box {
+  padding: 1.0em;
+  background: #ff7;
+  column-count: 3;
+  column-rule: inset 2px #33f;
+}
+column-count examplebody {  
+  min-width: 321px;  
+  max-width: 600px;  
+  margin: 2em auto;  
+  font: .9em/1.2 Arial, Helvetica, sans-serif;
+} 
+    /*This should, in theory, be the unset.*/
+.foo {
+  width: 251px;
+}
