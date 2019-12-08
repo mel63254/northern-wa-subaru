@@ -126,3 +126,7 @@ column-count examplebody {
 .foo {
   width: 251px;
 }
+pre {
+  word-wrap: break-word;      /* IE 5.5-7 */
+  white-space: pre-wrap;      /* Modern browsers */
+}
