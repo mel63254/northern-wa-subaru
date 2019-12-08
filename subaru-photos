@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      <meta charset="utf-8">
+      <link href="styles/style.css" rel="stylesheet">
+    </style>
+    <title>Northwestern WA Subies</title>
+  </head>
+  <body>
+  <h2>Photos of My Unicorn</h2>
+  <p>A photo galary of the ups and downs of my Unicorn</p>
+      <p><img src="images/sti.jpg" alt="2005 STI"></p>
+    <script src="scripts/main.js"></script>
