@@ -11,4 +11,17 @@
   <h2>Photos of My Unicorn</h2>
   <p>A photo galary of the ups and downs of my Unicorn</p>
       <p><img src="images/sti.jpg" alt="2005 STI"></p>
+      <p><img src="images/bath-time.jpg" alt="Bath Time"></p>
+      <p><img src="images/clean.jpg" alt="Clean"></p>
+      <p><img src="images/fillup.jpg" alt="Getting Gas"></p>
+      <p><img src="images/quiet1.jpg" alt="Calm and Quiet"></p>
+      <p><img src="images/quiet2.jpg" alt="Calm sunrise"></p>
+      <p><img src="images/morning.jpg" alt="Early morning"></p>
+      <p><img src="images/lake-cresent.jpg" alt="Lake Cresent"></p>
+      <p><img src="images/reflect.jpg" alt="Reflecting on memories"></p>
+      <p><img src="images/day-break.jpg" alt="Day Break"></p>
+      <p><img src="images/hidding.jpg" alt="2005 STI hidding"></p>
+      <p><img src="images/perfect.jpg" alt="Amazing shot"></p>
     <script src="scripts/main.js"></script>
+    </body>
+    </html>
