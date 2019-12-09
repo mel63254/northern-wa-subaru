@@ -1,8 +1,12 @@
-html { font-size: 10px;
+html { 
+    font-size: 10px;
     font-family: Helvetica, Arial, sans-serif;
     color: rgba(28, 25, 212, 0.884);
-    background-color: rgb(98, 170, 102);
-    header, main { padding: 2.5rem; }
+    background-color: rgb(214, 74, 203);
+    /*tells the whole background what color to be*/
+}
+header, main {
+    padding: 2.5rem;}
     a:link { color: #ff0000; }
     a:visited { color: #fffb00; }
     a:hover { color: #ff00bf; background-color: #39da11; text-decoration: none; }
