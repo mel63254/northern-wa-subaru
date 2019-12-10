@@ -151,6 +151,41 @@ pre; img {
   cursor: pointer;
   transition: 0.3s;
 }
+#myGps {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#pwp {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#plhb {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#pspb {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#hbss {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#sfp {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#hbsti {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
 #myImg:hover {opacity: 0.7;}
 
