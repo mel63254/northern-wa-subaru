@@ -134,6 +134,7 @@ pre; img {
   word-wrap: break-word;      /* IE 5.5-7 */
   white-space: pre-wrap;      /* Modern browsers */
 }
+
 /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 5px;
