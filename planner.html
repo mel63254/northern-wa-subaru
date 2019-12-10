@@ -33,25 +33,25 @@
         <img id="myP5" src="images/planner5.JPG" alt="Another cache of planning supplies" style="width:100%;max-width:300px">
         <figcaption>Another batch of planning supplies!!</figcaption>
         
-        <img id="myImg" src="images/hbgroup.JPG" alt="Group photo shoot" style="width:100%;max-width:300px">
+        <img id="myGps" src="images/hbgroup.JPG" alt="Group photo shoot" style="width:100%;max-width:300px">
         <figcaption>A photo shoot with my son's WRX, my wife's STI, and my HyperBlue STI.</figcaption>
         
-        <img id="myImg" src="images/planner3.JPG" alt="Pink week planner" style="width:100%;max-width:300px">
+        <img id="pwp" src="images/planner3.JPG" alt="Pink week planner" style="width:100%;max-width:300px">
         <figcaption>One week I've done in pink.</figcaption>
         
-        <img id="myImg" src="images/hbnose.JPG" alt="Pink lip on 2016 HyperBlue STI" style="width:100%;max-width:300px">
+        <img id="plhb" src="images/hbnose.JPG" alt="Pink lip on 2016 HyperBlue STI" style="width:100%;max-width:300px">
         <figcaption>I love my pink lip on my 2016 HyperBlue Subaru WRX STI!!</figcaption>
         
-        <img id="myImg" src="images/planner2.JPG" alt="Planner supplies in a planner bag" style="width:100%;max-width:300px">
+        <img id="pspb" src="images/planner2.JPG" alt="Planner supplies in a planner bag" style="width:100%;max-width:300px">
         <figcaption>Gotta have a planner bag to put it all in.</figcaption>
         
-        <img id="myImg" src="images/hbside.jpg" alt="side shot of 2016 HyperBlue STI" style="width:100%;max-width:300px">
+        <img id="hbss" src="images/hbside.jpg" alt="side shot of 2016 HyperBlue STI" style="width:100%;max-width:300px">
         <figcaption>Roller shot of my HyperBlue STI</figcaption>
         
-        <img id="myImg" src="images/planner1.JPG" alt="Supplies for planning"style="width:100%;max-width:300px">
+        <img id="sfp" src="images/planner1.JPG" alt="Supplies for planning"style="width:100%;max-width:300px">
         <figcaption>Supplies I picked up today!</figcaption>
         
-        <img id="myImg" src="images/hbsolo.JPG" alt="2016 HyperBlue STI" style="width:100%;max-width:300px">
+        <img id="hbsti" src="images/hbsolo.JPG" alt="2016 HyperBlue STI" style="width:100%;max-width:300px">
         <figcaption>Keeping it clean!!</figcaption>
         
         <!-- The Modal -->
@@ -99,6 +99,62 @@
         captionText.innerHTML = this.alt;
       }
       var img = document.getElementById("myP5");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("myGps");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("pwp");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("plhb");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("pspb");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("hbss");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("sfp");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      var img = document.getElementById("hbsti");
       var modalImg = document.getElementById("img01");
       var captionText = document.getElementById("caption");
       img.onclick = function(){
