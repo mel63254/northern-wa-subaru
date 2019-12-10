@@ -135,13 +135,13 @@ pre; img {
   white-space: pre-wrap;      /* Modern browsers */
 }
 /* Style the Image Used to Trigger the Modal */
-.myImg {
+#myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.myImg:hover {opacity: 0.7;}
+#myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -167,7 +167,7 @@ pre; img {
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-.caption {
+#caption {
   margin: auto;
   display: block;
   width: 80%;
