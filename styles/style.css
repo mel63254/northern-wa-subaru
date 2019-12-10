@@ -141,6 +141,16 @@ pre; img {
   cursor: pointer;
   transition: 0.3s;
 }
+#hbhk {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myP5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
 #myImg:hover {opacity: 0.7;}
 
