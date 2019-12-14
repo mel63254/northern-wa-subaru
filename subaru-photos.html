@@ -52,6 +52,14 @@
       <p>&copy <a href="index.html">Mel Nelson</a></p>
       <p> Contact info: <a href="mailto:mel63254@gmail.com">mel63254@gmail.com</a></p>
     </footer>
-    <script src="scripts/main.js"></script> 
+    <script src="scripts/main.js"></script>
+    var imgTagStart= '<img src= "img';
+var imgTagEnd='" alt="" class="whatever">';
+var imgTag="";
+    for (var i = 0; i < 20; i++) {
+  var imageId="image" + I;
+  imgTag = imgTagStart + i + imgTagEnd;
+  document.getElementById(imageId).innerHTML=imgTag;
+}
   </body>
 </html>
