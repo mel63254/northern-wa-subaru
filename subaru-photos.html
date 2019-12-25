@@ -3,6 +3,88 @@
   <head>
       <meta charset="utf-8">
       <link href="styles/style.css" rel="stylesheet">
+      <style>
+          body {
+          background-color: rgb(240, 145, 203);
+          border: 2.0rem groove rgb(34, 199, 250);
+          font-family: Arial, Helvetica, sans-serif;
+          }
+          .myImg {
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+          }
+          .myImg:hover {opacity: 0.7;}
+          /* The Modal (background) */
+          .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            padding-top: 100px; /* Location of the box */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+          }
+          /* Modal Content (image) */
+          .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+          }
+          /* Caption of Modal Image */
+          #caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+            text-align: center;
+            color: #ccc;
+            padding: 10px 0;
+            height: 150px;
+          }
+          /* Add Animation */
+          .modal-content, #caption {  
+            -webkit-animation-name: zoom;
+            -webkit-animation-duration: 0.6s;
+            animation-name: zoom;
+            animation-duration: 0.6s;
+          }
+          @-webkit-keyframes zoom {
+            from {-webkit-transform:scale(0)} 
+            to {-webkit-transform:scale(1)}
+          }
+          @keyframes zoom {
+            from {transform:scale(0)} 
+            to {transform:scale(1)}
+          }
+          /* The Close Button */
+          .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            transition: .3s;
+          }
+          .close:hover,
+          .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+          }
+          /* 100% Image Width on Smaller Screens */
+          @media only screen and (max-width: 700px){
+            .modal-content {
+              width: 100%;
+            }
+          }
+      </style>
     <title>Northwestern WA Subies</title>
   </head>
   <body>
@@ -18,37 +100,37 @@
         
         
         
-        <img1 src="images/wash.jpg" alt="Bath Time">
+        <img src="images/wash.jpg" alt="Bath Time">
         <figcaption>My 2005 Subaru STI getting a bath.</figcaption>
         
-        <img2 src="images/clean.jpg" alt="Clean">
+        <img src="images/clean.jpg" alt="Clean">
         <figcaption>All clean, and pretty.</figcaption>
         
-        <img3 src="images/fillup.jpg" alt="Getting Gas">
+        <img src="images/fillup.jpg" alt="Getting Gas">
         <figcaption>Looking fresh at the fuel pump!</figcaption>
         
-        <img4 src="images/q1.jpg" alt="Calm and Quiet">
+        <img src="images/q1.jpg" alt="Calm and Quiet">
         <figcaption>The calm before complete day break.</figcaption>
         
-        <img5 src="images/q2.jpg" alt="Calm sunrise">
+        <img src="images/q2.jpg" alt="Calm sunrise">
         <figcaption>Just being in a moment in time before the chaos of the day kicks in.</figcaption>
         
-        <img6 src="images/mornin.jpg" alt="Early morning">
+        <img src="images/mornin.jpg" alt="Early morning">
         <figcaption>The sun will not be denied, there are new paths to travel ahead.</figcaption>
         
-        <img7 src="images/lake-cresent.jpg" alt="Lake Cresent">
+        <img src="images/lake-cresent.jpg" alt="Lake Cresent">
         <figcaption>Today will always be remembered... Lake Cresent</figcaption>
         
-        <img8 src="images/past.jpg" alt="Reflecting on memories">
+        <img src="images/past.jpg" alt="Reflecting on memories">
         <figcaption>Reflecting on memories from another place in time.</figcaption>
         
-        <img9 src="images/daybreak.jpg" alt="Day Break">
+        <img src="images/daybreak.jpg" alt="Day Break">
         <figcaption>Today waits for no one. Now is the time to start.</figcaption>
         
-        <img10 src="images/hid.jpg" alt="2005 STI hidding">
+        <img src="images/hid.jpg" alt="2005 STI hidding">
         <figcaption>Do not forget to take time and be playful, as our time is limited.</figcaption>
         
-        <img11 src="images/SV.jpg" alt="Amazing shot">
+        <img src="images/SV.jpg" alt="Amazing shot">
         <figcaption>Appreciate the things you have.</figcaption>
     </figure>
     <h2><a href="/northern-wa-subaru/planner.html">Northwestern Planner Gal</a>
@@ -60,5 +142,6 @@
       <p> Contact info: <a href="mailto:mel63254@gmail.com">mel63254@gmail.com</a></p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/modal-v3.js">
   </body>
 </html>
