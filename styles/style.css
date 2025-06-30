@@ -20,7 +20,7 @@ p, {
 body {
   max-width: 1000px; 
   margin: 3 auto;
-  background-color: rgb(240, 145, 203); 
+  background-color: rgb(180, 180, 180); 
   padding: 0 20px 20px 20px;
   border: 2.0rem groove rgb(34, 199, 250);
   font-family: 'Mansalva', serif;
