@@ -2,7 +2,7 @@ html {
     font-size: 1.5em;
     font-family: Helvetica, Arial, sans-serif;
     color: rgba(28, 25, 212, 0.884);
-    background-color: rgb(240, 145, 203);
+    background-color: rgb(180, 180, 180);
     /*tells the whole background what color to be*/
 }
 header, main {
