@@ -22,7 +22,7 @@ span.onclick = function() {
     var imgTagStart= '<img src= "img';
 var imgTagEnd='" alt="" class="whatever">';
 var imgTag="";
-    for (var i = 0; i < 20; i++) {
+    for (var i = 0; i < 30; i++) {
   var imageId="image" + I;
   imgTag = imgTagStart + i + imgTagEnd;
   document.getElementById(imageId).innerHTML=imgTag;
