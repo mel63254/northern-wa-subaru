@@ -27,3 +27,9 @@ var imgTag="";
   imgTag = imgTagStart + i + imgTagEnd;
   document.getElementById(imageId).innerHTML=imgTag;
 }
+
+
+//Menu button
+function toggleMenu(x) {
+   x.classList.toggle("change");
+}
