@@ -1,6 +1,6 @@
 var modal = document.getElementById("myModal");
 
-for(var i = 1; i < 6; i++) {
+for(var i = 1; i < 12; i++) {
     var img = document.getElementById("myImg" + i);
     var modalImg = document.getElementById("img01");
     var captionText = document.getElementById("caption");
