@@ -19,11 +19,11 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 //script from Al... too tired, I'll look again tomorrow.
-    var imgTagStart= '<img src= "img';
+var imgTagStart= '<img src= "img';
 var imgTagEnd='" alt="" class="whatever">';
 var imgTag="";
     for (var i = 0; i < 30; i++) {
-  var imageId="image" + I;
+  var imageId="image" + i;
   imgTag = imgTagStart + i + imgTagEnd;
   document.getElementById(imageId).innerHTML=imgTag;
 }
