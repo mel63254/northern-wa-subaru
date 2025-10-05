@@ -1,4 +1,9 @@
-var modal = document.getElementById("myModal");
+/* minimal guard wrapper: prevents errors if expected elements are absent */
+(functionIO{
+    try {
+        var modal = document.getElementById("myModal");
+
+//var modal = document.getElementById("myModal");
 
 for(var i = 1; i < 6; i++) {
     var img = document.getElementById("myImg" + i);
@@ -17,3 +22,6 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+    }
+    catch(e) { /*no-op*/}
+})();
