@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function()){
   try { 
 //Get the modal
 var modal = document.getElementById("myModal");
