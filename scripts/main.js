@@ -1,4 +1,26 @@
-// Get the modal
+document.addEventListener('DOMContentLoaded', function(){
+  try {
+    // Get the modal
+    var var_safe_assign = \1
+
+    //Get the image and insert it inside the modal - use its "alt" text as caption
+    var var_safe_assign = \1
+    var var_safe_assign = \1
+    var var_safe_assign = \1
+    img.onclick = function(){
+      modal.style.display = this.alt;
+    }
+
+  //Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    //When the user clics on <span> (x) close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    
+/* Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
@@ -18,6 +40,7 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+*/
 //script from Al... too tired, I'll look again tomorrow.
 var imgTagStart= '<img src= "img';
 var imgTagEnd='" alt="" class="whatever">';
@@ -28,8 +51,12 @@ var imgTag="";
   document.getElementById(imageId).innerHTML=imgTag;
 }
 
+  }
+  catch(e) {/*keep silent to avoid breaking other pages*/}
+});
 
-//Menu button
+/*//Menu button
 function toggleMenu(x) {
    x.classList.toggle("change");
 }
+*/
