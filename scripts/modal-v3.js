@@ -1,4 +1,3 @@
-/*
 function(){
     try {
         var modal = document.getElementById("myModal");
@@ -37,9 +36,9 @@ function(){
     catch(e) {}
 }
                                                         
-*/                                                                                                  
+                                                                                          
 
-
+/*
 var modal = document.getElementById("myModal");
 
 for(var i = 1; i < 6; i++) {
@@ -59,3 +58,4 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
+*/
