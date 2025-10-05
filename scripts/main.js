@@ -1,12 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
   try {
-    // Get the modal
-    var var_safe_assign = \1
-
-    //Get the image and insert it inside the modal - use its "alt" text as caption
-    var var_safe_assign = \1
-    var var_safe_assign = \1
-    var var_safe_assign = \1
     img.onclick = function(){
       modal.style.display = this.alt;
     }
@@ -50,10 +43,11 @@ var imgTag="";
   imgTag = imgTagStart + i + imgTagEnd;
   document.getElementById(imageId).innerHTML=imgTag;
 }
-
-  }
+    
   catch(e) {/*keep silent to avoid breaking other pages*/}
-});
+}
+}
+                          
 
 /*//Menu button
 function toggleMenu(x) {
