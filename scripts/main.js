@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function()){
+/*document.addEventListener('DOMContentLoaded', function()){
   try { 
 //Get the modal
 var modal = document.getElementById("myModal");
@@ -28,7 +28,9 @@ span.onclick = function() {
     //keep silent to avoid breaking other pages
   }
 }
-/*
+*/
+
+                         
   // Get the modal
   var modal = document.getElementById("myModal");
 
@@ -65,4 +67,3 @@ var imgTag="";
 function toggleMenu(x) {
    x.classList.toggle("change");
 }
-*/
